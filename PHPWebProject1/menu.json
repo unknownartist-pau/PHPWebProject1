@@ -1,0 +1,25 @@
+﻿{
+    "menu":[
+        {
+        "id": 1,
+        "name":"Dantel",
+        "img":"menu_img_1"
+       },
+      {
+        "id": 2,
+        "name":"Örgü",
+          "img":"menu_img_2"
+      },
+      {
+        "id": 3,
+        "name":"Havlu",
+          "img": "menu_img_3"
+      },
+      {
+        "id": 4,
+        "name": "El İşleri",
+          "img": "menu_img_4"
+      }
+
+  ]
+}

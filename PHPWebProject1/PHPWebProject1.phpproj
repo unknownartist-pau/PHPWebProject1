@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>PHPWebProject1</Name>
+    <ProjectGuid>cf18fbf0-7c50-4c4c-86f7-2d6c0f5ca676</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>PHPWebProject1</AssemblyName>
+    <SpecificPageValue>index.html</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="loginCheck.php" />
+    <Compile Include="logout.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="fonts\" />
+    <Folder Include="images\" />
+    <Folder Include="js\" />
+    <Folder Include="Snippets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\glyphicons-halflings-regular.svg" />
+    <Content Include="images\log.gif" />
+    <Content Include="images\jumbotron_1200.jpg" />
+    <Content Include="images\jumbotron_768.jpg" />
+    <Content Include="images\jumbotron_992.jpg" />
+    <Content Include="images\knit-logo.png" />
+    <Content Include="images\log_in.jpg" />
+    <Content Include="images\menu_img_1.jpg" />
+    <Content Include="images\menu_img_2.jpg" />
+    <Content Include="images\menu_img_3.jpg" />
+    <Content Include="images\menu_img_4.jpg" />
+    <Content Include="images\specials-tile.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\ajax-utils.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-2.1.4.min.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\scrpt.js" />
+    <Content Include="menu.json" />
+    <Content Include="Snippets\Login.php" />
+    <Content Include="Snippets\menu.html" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config" />
+  </ItemGroup>
+</Project>
